@@ -1,0 +1,42 @@
+{
+  "name": "postcss-dotted-border",
+  "version": "0.0.1",
+  "description": "PostCSS plugin to change the spacing between dots of dotted border by using linear-gradient.",
+  "main": "lib/index.js",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "border",
+    "dotted-border"
+  ],
+  "author": {
+    "name": "OsukeUesugi"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsukeUesugi/postcss-dotted-border.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OsukeUesugi/postcss-dotted-border/issues"
+  },
+  "homepage": "https://github.com/OsukeUesugi/postcss-dotted-border",
+  "dependencies": {
+    "postcss": "^5.1.2"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "eslint": "^3.1.1",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js",
+    "build": "babel src -d lib -w"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
