@@ -1,6 +1,6 @@
 {
   "name": "postcss-dotted-border",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PostCSS plugin to change the spacing between dots of dotted border by using linear-gradient.",
   "main": "lib/index.js",
   "keywords": [
