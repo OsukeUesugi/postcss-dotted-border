@@ -3,10 +3,10 @@
 [PostCSS](https://github.com/postcss/postcss) plugin to change the spacing between dots of dotted border by using linear-gradient.
 
 You can use four property.
-* dotted-border-top: <border-width> || <border-height> || <spacing> || <border-color>;
-* dotted-border-right: <border-width> || <border-height> || <spacing> || <border-color>;
-* dotted-border-bottom: <border-width> || <border-height> || <spacing> || <border-color>;
-* dotted-border-left: <border-width> || <border-height> || <spacing> || <border-color>;
+* dotted-border-top: border-width || border-height || spacing || border-color;
+* dotted-border-right: border-width || border-height || spacing || border-color;
+* dotted-border-bottom: border-width || border-height || spacing || border-color;
+* dotted-border-left: border-width || border-height || spacing || border-color;
 
 
 ```css
