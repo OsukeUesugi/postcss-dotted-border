@@ -1,4 +1,4 @@
-export default function(decl) {
+export default (decl) => {
     let argsArray = decl.value.split(' '),
         val;
 

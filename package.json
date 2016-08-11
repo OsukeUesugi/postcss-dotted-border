@@ -1,6 +1,6 @@
 {
   "name": "postcss-dotted-border",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "PostCSS plugin to change the spacing between dots of dotted border by using linear-gradient.",
   "main": "lib/index.js",
   "keywords": [
@@ -28,6 +28,7 @@
   "devDependencies": {
     "ava": "^0.15.2",
     "babel-cli": "^6.11.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-es2015": "^6.13.2",
     "eslint": "^3.1.1",
     "eslint-config-postcss": "^2.0.2"

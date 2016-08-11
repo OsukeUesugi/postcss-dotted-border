@@ -2,14 +2,11 @@ import postcss from 'postcss';
 import getGradient from './getGradient.js';
 import getBgSize from './getBgSize.js';
 
-module.exports = postcss.plugin('postcss-dotted-border',  () => {
+export default postcss.plugin('postcss-dotted-border',  () => {
 
-    // Work with options here
+    return (css) => {
 
-
-    return function (css) {
-
-        css.walkDecls(/^dotted-border/, function (decl) {
+        css.walkDecls(/^dotted-border/, (decl) => {
             var gradient = getGradient(decl),
                 bgSize = getBgSize(decl);
 
